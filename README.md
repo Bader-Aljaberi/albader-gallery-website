@@ -1,6 +1,6 @@
 # Albader Gallery Website
 
-![Website Preview](images/AlbaderGallery.jpg)
+![Website Preview](images/AlbaderGallery.png)
 
 ## 🎯 Project Overview
 **Course:** Technology Class Project  
