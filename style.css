@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Albader Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(26,35,126,0.8), rgba(49,27,146,0.8)), url('https://images.unsplash.com/photo-1578301978018-3005759f48f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+            margin-bottom: 40px;
+        }
+        
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            background: #bb86fc;
+            color: #1a237e;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        
+        .carousel {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        .carousel img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .art-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+        .art-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .art-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .art-info {
+            padding: 20px;
+        }
+        
+        .price {
+            color: #bb86fc;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .btn {
+            background: #1a237e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 32px;
+            }
+            
+            .art-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo"><i class="fas fa-palette"></i> Albader <span>Gallery</span></div>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="blogs.html">Blogs</a>
+                <a href="contact.html">Contact</a>
+                <a href="appointment.html">Book Visit</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <h2>Welcome to Albader Gallery</h2>
+            <p>Discover beautiful art from Bahrain and around the world</p>
+            <a href="gallery.html" class="cta-button">View Collection</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="carousel">
+            <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Gallery Image">
+        </div>
+
+        <h2 style="text-align: center; color: #1a237e; margin: 30px 0;">Featured Artworks</h2>
+        
+        <div class="art-grid">
+            <div class="art-card">
+                <img src="/res/239aa254-c9e8-49af-80dd-ab3fbae0f818/download.jpg" alt="Pearl Diver's Legacy">
+                <div class="art-info">
+                    <h3>Pearl Diver's Legacy</h3>
+                    <p>Modern art about Bahrain history</p>
+                    <div class="price">BHD 850</div>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="art-card">
+                <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ethereal Dawn">
+                <div class="art-info">
+                    <h3>Ethereal Dawn</h3>
+                    <p>Beautiful abstract painting</p>
+                    <div class="price">BHD 680</div>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="art-card">
+                <img src="https://images.unsplash.com/photo-1578301978018-3005759f48f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Silent Forest">
+                <div class="art-info">
+                    <h3>Silent Forest</h3>
+                    <p>Peaceful landscape painting</p>
+                    <div class="price">BHD 1,200</div>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="art-card">
+                <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Arabic Calligraphy">
+                <div class="art-info">
+                    <h3>Arabic Calligraphy</h3>
+                    <p>Traditional with modern style</p>
+                    <div class="price">BHD 750</div>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Albader Gallery</h3>
+                    <p>Art gallery in Bahrain showing local and international artists</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Riffa, Bahrain</p>
+                    <p><i class="fas fa-phone"></i> +973 3333 4444</p>
+                    <p><i class="fas fa-envelope"></i> info@albadergallery.com</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a><br>
+                    <a href="about.html">About</a><br>
+                    <a href="gallery.html">Gallery</a><br>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2025 Albader Gallery | MKS Student Project</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
