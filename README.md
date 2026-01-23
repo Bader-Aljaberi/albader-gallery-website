@@ -2,33 +2,33 @@
 
 ![Website Preview](images/AlbaderGallery.png)
 
-## 🎯 Project Overview
+##  Project Overview
 **Course:** Technology Class Project  
 **Teacher:** Mr. Nkwa Walkers  
 **Student:** Bader Aljaberi
  
 **Project Type:** Multi-page Art Gallery Website  
 
-## 📋 Project Description
+##  Project Description
 A professional, multi-page website for "Albader Gallery" - a fictional art gallery in Riffa, Bahrain. This project demonstrates advanced web development skills including multi-page navigation, responsive design, forms, and professional styling.
 
-## ✨ Key Features
-- ✅ **6-Page Website** - Complete navigation system
-- ✅ **Responsive Design** - Mobile-first approach
-- ✅ **CSS Grid Layout** - Modern layout techniques
-- ✅ **Interactive Forms** - Contact form with validation
-- ✅ **Professional Color Scheme** - Purple/blue theme
-- ✅ **Font Awesome Icons** - Enhanced user interface
-- ✅ **Cross-browser Compatibility** - Works on all modern browsers
+##  Key Features
+-  **6-Page Website** - Complete navigation system
+-  **Responsive Design** - Mobile-first approach
+-  **CSS Grid Layout** - Modern layout techniques
+-  **Interactive Forms** - Contact form with validation
+-  **Professional Color Scheme** - Purple/blue theme
+-  **Font Awesome Icons** - Enhanced user interface
+-  **Cross-browser Compatibility** - Works on all modern browsers
 
-## 🛠 Technologies Used
+##  Technologies Used
 - **HTML5** - Semantic markup structure
 - **CSS3** - Advanced styling with Grid and Flexbox
 - **Font Awesome 6** - Icon library
 - **JavaScript** - Form validation and interactivity
 - **Unsplash API** - High-quality images
 
-## 📁 Project Structure
+##  Project Structure
 albader-gallery-website/
 │
 ├── index.html # Home page
@@ -46,17 +46,17 @@ albader-gallery-website/
 ├── screenshot.png # Website preview
 
 
-## 🚀 How to View
+##  How to View
 1. **Online:** Open `index.html` in any web browser
 2. **Local:** Download all files and open `index.html`
 
-## 🎨 Design Choices
+##  Design Choices
 - **Primary Color:** `#1a237e` (Deep Blue) - Represents creativity and depth
 - **Accent Color:** `#bb86fc` (Light Purple) - Adds artistic flair
 - **Typography:** Clean, readable sans-serif fonts
 - **Layout:** Grid-based for flexibility
 
-## 📚 Educational Objectives Met
+##  Educational Objectives Met
 1. **Multi-page Website Structure**
 2. **CSS Grid & Flexbox Layouts**
 3. **Form Design & Validation**
@@ -64,22 +64,22 @@ albader-gallery-website/
 5. **Professional Documentation**
 6. **Project Planning & Implementation**
 
-## 🇧🇭 Bahraini Cultural Elements
+##  Bahraini Cultural Elements
 - Bahraini pricing (BHD)
 - Riffa, Bahrain location
 - Arabic art and calligraphy themes
 - Local cultural references
 
-## 👨‍🏫 Notes for Reviewer
+##  Notes for Reviewer
 - All code written by student (no AI-generated content)
 - Images from Unsplash (properly attributed)
 - Complete project with 6 interconnected pages
 - Demonstrates understanding of web development concepts
 
-## 📄 License
+##  License
 MIT License - See LICENSE file
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 - **Teacher:** Mr. Nkwa Walkers for guidance
 - **Unsplash** for high-quality images
 - **Font Awesome** for icons
